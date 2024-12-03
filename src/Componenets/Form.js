@@ -200,7 +200,7 @@ import axios from "axios";
 const Form = () => {
   const [name, setName] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
-  const [amount, setAmount] = useState("117");
+  const [amount, setAmount] = useState("1");
 
   const handlePayment = async (e) => {
     e.preventDefault();
